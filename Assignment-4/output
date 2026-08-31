@@ -1,0 +1,36 @@
+$ g++ dijkstra.cpp -o dijkstra
+$ ./dijkstra
+
+Enter number of intersections (vertices): 6
+Enter number of roads (edges): 7
+Enter edges (u v w):
+0 1 4
+0 2 2
+1 2 1
+1 3 5
+2 3 8
+2 4 10
+3 5 2
+
+Enter ambulance start location (source): 0
+Enter number of hospitals: 2
+Enter hospital nodes: 3 5
+
+Nearest hospital is at node 5 with travel time 9 minutes.
+
+// hospital not reachable
+
+$ ./dijkstra
+
+Enter number of intersections (vertices): 6
+Enter number of roads (edges): 3
+Enter edges (u v w):
+0 1 5
+1 2 3
+4 5 2
+
+Enter ambulance start location (source): 0
+Enter number of hospitals: 2
+Enter hospital nodes: 3 5
+
+No hospital is reachable from the ambulance location.

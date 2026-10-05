@@ -1,0 +1,9 @@
+nisl21@nisl21-V50t-Gen-2-13IOB:~$ g++ graph.cpp -o graph
+nisl21@nisl21-V50t-Gen-2-13IOB:~$ ./graph
+Chromatic Number (Minimum Colors): 3
+Vertex Color Assignment:
+Vertex 0 -> Color 1
+Vertex 1 -> Color 2
+Vertex 2 -> Color 3
+Vertex 3 -> Color 1
+Vertex 4 -> Color 2

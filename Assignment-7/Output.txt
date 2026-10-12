@@ -1,0 +1,54 @@
+$ g++ main.cpp -o main
+$ ./main
+
+UNIVERSITY TIMETABLE SCHEDULING
+Enter number of courses: 5
+Enter number of conflicts: 6
+Enter conflicting course pairs:
+1 2
+1 3
+2 3
+2 4
+3 5
+4 5
+
+1. GREEDY COLORING
+Course  Exam Slot
+1       1
+2       2
+3       3
+4       1
+5       2
+Total exam slots: 3
+
+2. WELSH-POWELL
+Course  Exam Slot
+1       1
+2       2
+3       3
+4       1
+5       2
+Total exam slots: 3
+
+3. DSATUR
+Course  Exam Slot
+1       1
+2       2
+3       3
+4       1
+5       2
+Total exam slots: 3
+
+ALGORITHM COMPARISON
+Greedy slots: 3
+Welsh-Powell slots: 3
+DSATUR slots: 3
+
+Selected schedule uses 3 exam slots.
+
+Enter available classrooms per time slot: 2
+
+Room Allocation Check
+Slot 1: 2 exams, 2 rooms available - Valid
+Slot 2: 2 exams, 2 rooms available - Valid
+Slot 3: 1 exams, 2 rooms available - Valid
